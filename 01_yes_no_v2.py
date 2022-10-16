@@ -27,6 +27,10 @@ def instructions():
 # main ----------------------------------------------------------------------
 
 
+txt = input("\nWelcome to 123 Go! What is your name? ")
+print(f"Welcome, {txt}")
+
+
 show_instructions = yes_no("Have you played this game before?   ")
 print ()
 print ("You chose {}".format(show_instructions))
